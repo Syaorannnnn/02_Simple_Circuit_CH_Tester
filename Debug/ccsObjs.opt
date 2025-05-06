@@ -1,0 +1,10 @@
+"./Simple_Circuit_CH_Tester.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./HARDWARE/AD9959/AD9959.o"
+"./HARDWARE/AD9959/DDS.o"
+"./SYSTEM/Tick.o"
+"./USER/UserTask.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a

@@ -1,0 +1,32 @@
+[
+   {
+      "directory" : "E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug",
+      "command"   : "clang++ -D__MSPM0G3505__ -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/USER\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/SYSTEM\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug\" -I\"E:/ti/SDK/mspm0_sdk_2_04_00_06/source/third_party/CMSIS/Core/Include\" -I\"E:/ti/SDK/mspm0_sdk_2_04_00_06/source\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c++/v1\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib/clang/18/include\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c\"",
+      "file"      : "E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug/ti_msp_dl_config.c"
+   },
+   {
+      "directory" : "E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug",
+      "command"   : "clang++ -D__MSPM0G3505__ -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/USER\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/SYSTEM\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug\" -I\"E:/ti/SDK/mspm0_sdk_2_04_00_06/source/third_party/CMSIS/Core/Include\" -I\"E:/ti/SDK/mspm0_sdk_2_04_00_06/source\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c++/v1\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib/clang/18/include\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c\"",
+      "file"      : "E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE/AD9959/AD9959.c"
+   },
+   {
+      "directory" : "E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug",
+      "command"   : "clang++ -D__MSPM0G3505__ -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/USER\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/SYSTEM\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug\" -I\"E:/ti/SDK/mspm0_sdk_2_04_00_06/source/third_party/CMSIS/Core/Include\" -I\"E:/ti/SDK/mspm0_sdk_2_04_00_06/source\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c++/v1\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib/clang/18/include\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c\"",
+      "file"      : "E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE/AD9959/DDS.c"
+   },
+   {
+      "directory" : "E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug",
+      "command"   : "clang++ -D__MSPM0G3505__ -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/USER\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/SYSTEM\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug\" -I\"E:/ti/SDK/mspm0_sdk_2_04_00_06/source/third_party/CMSIS/Core/Include\" -I\"E:/ti/SDK/mspm0_sdk_2_04_00_06/source\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c++/v1\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib/clang/18/include\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c\"",
+      "file"      : "E:/ti/workspace/02_Simple_Circuit_CH_Tester/SYSTEM/Tick.c"
+   },
+   {
+      "directory" : "E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug",
+      "command"   : "clang++ -D__MSPM0G3505__ -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/USER\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/SYSTEM\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug\" -I\"E:/ti/SDK/mspm0_sdk_2_04_00_06/source/third_party/CMSIS/Core/Include\" -I\"E:/ti/SDK/mspm0_sdk_2_04_00_06/source\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c++/v1\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib/clang/18/include\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c\"",
+      "file"      : "E:/ti/workspace/02_Simple_Circuit_CH_Tester/Simple_Circuit_CH_Tester.c"
+   },
+   {
+      "directory" : "E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug",
+      "command"   : "clang++ -D__MSPM0G3505__ -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/USER\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/SYSTEM\" -I\"E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug\" -I\"E:/ti/SDK/mspm0_sdk_2_04_00_06/source/third_party/CMSIS/Core/Include\" -I\"E:/ti/SDK/mspm0_sdk_2_04_00_06/source\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c++/v1\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib/clang/18/include\" -isystem\"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c\"",
+      "file"      : "E:/ti/workspace/02_Simple_Circuit_CH_Tester/USER/UserTask.c"
+   }
+]
