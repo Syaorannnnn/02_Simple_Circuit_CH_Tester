@@ -3,15 +3,17 @@
 
 #include <stdint.h>
 #include "ti_msp_dl_config.h"
+#include "./BTN/BTN.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 extern volatile uint32_t Tick;
 
-/**
- * @brief 延时(使用SysTick中断计时)
- * @param t 延时时间(ms)
-*/
-void Tick_delay(uint32_t t);
+void delay_ms(uint8_t ms);
 
-void SysTick_Handler(void);
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* #ifndef __TICK_H__ */

@@ -75,10 +75,11 @@ Simple_Circuit_CH_Tester.o: ../Simple_Circuit_CH_Tester.c \
  E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/dl_wwdt.h \
  E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_interrupt.h \
  E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_systick.h \
+ E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE/UART/UART.h \
+ E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE/BTN/BTN.h \
  E:/ti/workspace/02_Simple_Circuit_CH_Tester/USER/UserTask.h \
- E:/ti/workspace/02_Simple_Circuit_CH_Tester/SYSTEM/Tick.h \
- E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE/AD9959/DDS.h \
- E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE/AD9959/AD9959.h
+ E:/ti/workspace/02_Simple_Circuit_CH_Tester/USER/GUI/GUI.h \
+ E:/ti/workspace/02_Simple_Circuit_CH_Tester/SYSTEM/Tick.h
 ti_msp_dl_config.h:
 E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/devices/msp/msp.h:
 E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/devices/DeviceFamily.h:
@@ -153,7 +154,8 @@ E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/dl_vref.h:
 E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/dl_wwdt.h:
 E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_interrupt.h:
 E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_systick.h:
+E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE/UART/UART.h:
+E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE/BTN/BTN.h:
 E:/ti/workspace/02_Simple_Circuit_CH_Tester/USER/UserTask.h:
+E:/ti/workspace/02_Simple_Circuit_CH_Tester/USER/GUI/GUI.h:
 E:/ti/workspace/02_Simple_Circuit_CH_Tester/SYSTEM/Tick.h:
-E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE/AD9959/DDS.h:
-E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE/AD9959/AD9959.h:

@@ -2,5 +2,15 @@
   // Use IntelliSense to learn about possible attributes.
   // Hover to view descriptions of existing attributes.
   "version": "0.2.0",
-  "configurations": []
+  "configurations": [
+  {
+    "name": "02_Simple_Circuit_CH_Tester",
+    "type": "ccs-debug",
+    "request": "launch",
+    "projectInfo": {
+        "name": "02_Simple_Circuit_CH_Tester",
+        "resourceId": "/02_Simple_Circuit_CH_Tester/Simple_Circuit_CH_Tester.c"
+    }
+  }
+  ]
 }

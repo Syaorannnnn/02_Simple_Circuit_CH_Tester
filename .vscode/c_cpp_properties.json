@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "TI_MSPM0",
+            "includePath": [
+                "E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include",
+                "E:/ti/SDK/mspm0_sdk_2_04_00_06/source",
+                "E:/ti/SDK/mspm0_sdk_2_04_00_06/source/third_party/CMSIS/Core/Include",
+                "${workspaceFolder}/",
+                "${workspaceFolder}/HARDWARE",
+                "${workspaceFolder}/SYSTEM",
+                "${workspaceFolder}/USER",
+                "${workspaceFolder}/Debug"
+            ],
+            "compilerPath": "E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/bin/tiarmclang.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "defines": [
+                " __MSPM0G3507__"
+            ],
+            "intelliSenseMode": "windows-clang-arm"
+        }
+    ],
+    "version": 4
+}

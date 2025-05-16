@@ -74,7 +74,8 @@ SYSTEM/Tick.o: ../SYSTEM/Tick.c ../SYSTEM/Tick.h \
  E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/dl_vref.h \
  E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/dl_wwdt.h \
  E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_interrupt.h \
- E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_systick.h
+ E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_systick.h \
+ E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE/BTN/BTN.h
 ../SYSTEM/Tick.h:
 ti_msp_dl_config.h:
 E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/devices/msp/msp.h:
@@ -150,3 +151,4 @@ E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/dl_vref.h:
 E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/dl_wwdt.h:
 E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_interrupt.h:
 E:/ti/SDK/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_systick.h:
+E:/ti/workspace/02_Simple_Circuit_CH_Tester/HARDWARE/BTN/BTN.h:

@@ -1,0 +1,17 @@
+{
+    "files.autoGuessEncoding": true,
+    "files.exclude": {					// 文件排除
+        "DEBUG/": true,
+        "FLASH/": true,
+    },
+    "files.associations": {
+        "uart.h": "c",
+        "dl_uart_main.h": "c",
+        "tick.h": "c",
+        "stdint.h": "c",
+        "stddef.h": "c",
+        "ti_msp_dl_config.h": "c",
+        "math.h": "c"
+    }
+
+}

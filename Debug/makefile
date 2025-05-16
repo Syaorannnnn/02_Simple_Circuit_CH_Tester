@@ -13,9 +13,10 @@ ORDERED_OBJS += \
 "./Simple_Circuit_CH_Tester.o" \
 "./ti_msp_dl_config.o" \
 "./startup_mspm0g350x_ticlang.o" \
-"./HARDWARE/AD9959/AD9959.o" \
-"./HARDWARE/AD9959/DDS.o" \
+"./HARDWARE/BTN/BTN.o" \
+"./HARDWARE/UART/UART.o" \
 "./SYSTEM/Tick.o" \
+"./USER/GUI/GUI.o" \
 "./USER/UserTask.o" \
 $(GEN_CMDS__FLAG) \
 -Wl,-ldevice.cmd.genlibs \
@@ -29,12 +30,16 @@ RMDIR := RMDIR /S/Q
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include subdir_vars.mk
--include HARDWARE/AD9959/subdir_vars.mk
+-include HARDWARE/BTN/subdir_vars.mk
+-include HARDWARE/UART/subdir_vars.mk
 -include SYSTEM/subdir_vars.mk
+-include USER/GUI/subdir_vars.mk
 -include USER/subdir_vars.mk
 -include subdir_rules.mk
--include HARDWARE/AD9959/subdir_rules.mk
+-include HARDWARE/BTN/subdir_rules.mk
+-include HARDWARE/UART/subdir_rules.mk
 -include SYSTEM/subdir_rules.mk
+-include USER/GUI/subdir_rules.mk
 -include USER/subdir_rules.mk
 -include objects.mk
 
@@ -146,15 +151,15 @@ all: $(OBJS) $(GEN_CMDS)
 02_Simple_Circuit_CH_Tester.out: $(OBJS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: Arm Linker'
-	"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/bin/tiarmclang.exe" @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -gdwarf-3 -Wl,-m"02_Simple_Circuit_CH_Tester.map" -Wl,-i"E:/ti/SDK/mspm0_sdk_2_04_00_06/source" -Wl,-i"E:/ti/workspace/02_Simple_Circuit_CH_Tester" -Wl,-i"E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug/syscfg" -Wl,-i"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib" -Wl,--diag_wrap=off -Wl,--display_error_number -Wl,--warn_sections -Wl,--xml_link_info="02_Simple_Circuit_CH_Tester_linkInfo.xml" -Wl,--rom_model -o "02_Simple_Circuit_CH_Tester.out" $(ORDERED_OBJS)
+	"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/bin/tiarmclang.exe" @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O0 -gdwarf-3 -Wl,-m"02_Simple_Circuit_CH_Tester.map" -Wl,-i"E:/ti/SDK/mspm0_sdk_2_04_00_06/source" -Wl,-i"E:/ti/workspace/02_Simple_Circuit_CH_Tester" -Wl,-i"E:/ti/workspace/02_Simple_Circuit_CH_Tester/Debug/syscfg" -Wl,-i"E:/ti/CCS_THEIA/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib" -Wl,--diag_wrap=off -Wl,--display_error_number -Wl,--warn_sections -Wl,--xml_link_info="02_Simple_Circuit_CH_Tester_linkInfo.xml" -Wl,--rom_model -o "02_Simple_Circuit_CH_Tester.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
 # Other Targets
 clean:
 	-$(RM) $(GEN_MISC_FILES__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "Simple_Circuit_CH_Tester.o" "ti_msp_dl_config.o" "startup_mspm0g350x_ticlang.o" "HARDWARE\AD9959\AD9959.o" "HARDWARE\AD9959\DDS.o" "SYSTEM\Tick.o" "USER\UserTask.o" 
-	-$(RM) "Simple_Circuit_CH_Tester.d" "ti_msp_dl_config.d" "startup_mspm0g350x_ticlang.d" "HARDWARE\AD9959\AD9959.d" "HARDWARE\AD9959\DDS.d" "SYSTEM\Tick.d" "USER\UserTask.d" 
+	-$(RM) "Simple_Circuit_CH_Tester.o" "ti_msp_dl_config.o" "startup_mspm0g350x_ticlang.o" "HARDWARE\BTN\BTN.o" "HARDWARE\UART\UART.o" "SYSTEM\Tick.o" "USER\GUI\GUI.o" "USER\UserTask.o" 
+	-$(RM) "Simple_Circuit_CH_Tester.d" "ti_msp_dl_config.d" "startup_mspm0g350x_ticlang.d" "HARDWARE\BTN\BTN.d" "HARDWARE\UART\UART.d" "SYSTEM\Tick.d" "USER\GUI\GUI.d" "USER\UserTask.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

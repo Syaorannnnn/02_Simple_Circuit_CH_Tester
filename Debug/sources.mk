@@ -125,7 +125,9 @@ GEN_OPTS__QUOTED :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 . \
-HARDWARE/AD9959 \
+HARDWARE/BTN \
+HARDWARE/UART \
 SYSTEM \
+USER/GUI \
 USER \
 
